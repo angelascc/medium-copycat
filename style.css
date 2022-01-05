@@ -1,0 +1,55 @@
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  text-align: center;
+  background-size: cover;
+  padding: 120px 0;
+  color: white
+}
+.banner p {
+  font-size: 30px;
+  font-family: 'Luxurious Roman', cursive;
+}
+
+body {
+  color: gray;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.link-gradient {
+  color: #030700;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgb(233, 253, 241), rgba(233, 253, 240, 1));
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 25px;
+}
+
+.link-gradient:hover {
+  background-image: linear-gradient(to bottom, rgb(61, 68, 64), rgb(55, 117, 77));
+}
+
+h1, h2 {
+  font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
